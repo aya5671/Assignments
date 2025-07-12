@@ -3,9 +3,9 @@
 1. FS Module (Sync & Async)
 Create a file named `info.txt` containing basic information about yourself (name, age, university).
 Then:
-    Read the file using `fs.readFileSync` and log the content to the console.
-    Read the same file using `fs.readFile` (asynchronous).
-    Create a new file `summary.txt` with a sentence like:
+    -Read the file using `fs.readFileSync` and log the content to the console.
+    -Read the same file using `fs.readFile` (asynchronous).
+    -Create a new file `summary.txt` with a sentence like:
  `This file was read successfully and contains X characters.`
 
 2. HTTP Module + Routing
@@ -17,9 +17,9 @@ Use the built-in `http` module to create a simple server with 3 routes:
 3. Callback Hell to Promises
 Create 3 files: `step1.txt`, `step2.txt`, `step3.txt`, each with a simple message.
 Then:
-   Read them in sequence using nested callbacks (callback hell).
-   Refactor the same logic using promise chaining.
-   Do the same using async/await.
+   -Read them in sequence using nested callbacks (callback hell).
+   -Refactor the same logic using promise chaining.
+   -Do the same using async/await.
   
 4. Custom Module
 Create a file `math.js` that exports 4 functions: `add`, `sub`, `mult`, and `div`.
